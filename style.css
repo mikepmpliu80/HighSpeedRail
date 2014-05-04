@@ -1,0 +1,130 @@
+body{
+  margin:0px;
+}
+
+nav{
+  position: relative;
+  margin: 0px;
+  height: 60px;
+  background-color:  #DDDDDD
+}
+
+nav .icon{
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    height: 60px;
+}
+
+
+nav ul.header{
+  position: absolute;
+  list-style-type: none;
+  top: 0.5em;
+  left: 2em
+}
+
+nav li{
+  float: left;
+  margin-left: 2em;
+}
+
+nav ul.login{
+  position: absolute;
+  list-style-type: none;
+  top: 0.5em;
+  right: 2em
+}
+
+div.info{
+  margin: 0px;
+  height: 370px;
+background: #9adff4; /* Old browsers */
+background: -moz-linear-gradient(top, #9adff4 0%, #ccdde2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9adff4), color-stop(100%,#ccdde2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #9adff4 0%,#ccdde2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #9adff4 0%,#ccdde2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #9adff4 0%,#ccdde2 100%); /* IE10+ */
+background: linear-gradient(to bottom, #9adff4 0%,#ccdde2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9adff4', endColorstr='#ccdde2',GradientType=0 ); /* IE6-9 */
+}
+
+.info .spacing{
+  margin: 0px;
+  height: 30px; 
+}
+
+
+.info .middle{
+  height: 200px; 
+}
+
+
+.info p{
+  text-align: center;
+}
+
+.info .detail{
+     height: 120px; 
+}
+
+.h2spacing{
+  line-height: 0.5;
+  text-align: center;
+
+}
+
+.demonstrate{
+  text-align: center;
+}
+
+.demonstrate button{
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button.register{
+  background-color:#F08080;
+}
+
+button.facebook{
+  background-color: #0000FF;
+}
+
+button {
+  font-size:1.2em;
+  color: #FFF
+}
+
+footer{
+  background-color:#666666;
+  height: 25px;
+  position: relative;
+}
+
+footer .copyright{
+  position: absolute;
+  top: 0px;
+  left: 35px;
+}
+
+footer ul.finalinfo{
+  position: absolute;
+  margin: 0px;
+  height: 25px;
+  top: 0px;
+  right: 50px;
+}
+
+footer ul.finalinfo li{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  margin-left: 2em;
+}
+
+span.footerfont{
+  font-size: 0.7em;
+  color:#FFF;
+}
